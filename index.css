@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.container {
+    max-width:  1140px;
+    padding:0 15px ;
+    margin: 0 ;
+}
+
+.header{
+    background: #245632 ;
+    color : plum ;
+    padding: 20px ;
+    width: 100% ;
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    z-index:2;
+
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.menu-link{
+    text-decoration : none;
+    color: plum ;
+}
+.banner-section {
+    padding: 100px 0;
+    background: url(img/banner-bg.jpg);
+    margin-top: 103px;
+    background-size: cover ;
+    background-position: center;
+}
+.banner-title {
+    font-size: 48px
+
+}
+.banner-title, .banner-description{
+     text-align: center;
+     color: papayawhip ;
+}
+.cards-section {
+    padding: 50px 0;
+
+}
+.cards-title, .cards-description {
+    columns: #114455;
+    text-align: center ;
+}
+.card{
+     padding: 25px;
+     margin-top: 25px;
+     width:25%;
+     background: peru ;
+     box-shadow: 0px 4px 5px 9px #245632 ;
+     text-align:center ;
+
+}
+
+.card-link {
+    text-decoration: none ;
+    color: aliceblue;
+}
+.card-button{
+    background-color: #245632;
+    text-align: center;
+    padding: 10px 70px ;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+.cards-title, .cards-description {
+    margin-top : 10px ;
+}
+.card:hover{
+    background: linear-gradient(35deg, plum,rgb(247, 64, 186) ,#6d055c)
+}
+.card-button:hover {
+    cursor: pointer;
+}
+.footer{ 
+    background-image: url(img/footer-bg.jpg);
+ background-size:  cover;
+ padding: 100px 0;
+ 
+
+}
+.copyright {
+    color:pink;
+    padding: 0 50px;
+}
+
+
+
+.menu{
+    display: flex;
+    flex: row;
+    justify-content: space-evenly;
+}
+.header-row{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+.header-logo {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    flex-grow: 1;
+}
+
+.header-menu {
+    flex-grow:4;
+}
+.cards-row{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.footer-row{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+
+}
+.social-networks{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-search {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items:center;
+}
+
+.footer-search-input {
+ height: 40px;
+ margin-right: 20px;
+ border-radius: 10px;
+ border: none ;
+ flex-grow:3;
+
+}
+
+.footer-search-button{
+    height:40px;
+    flex-grow:2;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight : bold ;
+}

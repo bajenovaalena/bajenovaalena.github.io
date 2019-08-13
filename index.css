@@ -12,7 +12,7 @@
 
 .header{
     background: #245632 ;
-    color : plum ;
+    color : moccasin ;
     padding: 20px ;
     width: 100% ;
     position: fixed;
@@ -29,11 +29,11 @@
 
 .menu-link{
     text-decoration : none;
-    color: plum ;
+    color: mistyRose;
 }
 .banner-section {
     padding: 100px 0;
-    background: url(img/banner-bg.jpg);
+    background: url(фото3.jpg);
     margin-top: 103px;
     background-size: cover ;
     background-position: center;
@@ -51,7 +51,7 @@
 
 }
 .cards-title, .cards-description {
-    columns: #114455;
+    columns: peachpuff;
     text-align: center ;
 }
 .card{
